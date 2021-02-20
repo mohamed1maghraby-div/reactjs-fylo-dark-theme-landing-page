@@ -1,0 +1,18 @@
+.testimonials{
+    margin-top: 150px;
+    display: flex;
+    background: url('http://localhost:3000/images/bg-quotes.png')  no-repeat top left;
+}
+@media (max-width: 950px){
+    .testimonials{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 750px){
+    .testimonials {
+        margin-top: 280px;
+        background: url(http://localhost:3000/images/bg-quotes.png) no-repeat top left;
+        background-position: 55px 4px;
+        padding: 20px;
+    }
+}

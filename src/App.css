@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(218, 28%, 13%);
+}
+a{
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+h1 , nav{
+  font-family: 'Raleway', sans-serif;
+}
+.fylo{
+  position: relative;
+  background-color: hsl(217, 28%, 15%);
+  background-image: url('http://localhost:3000/images/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.contanier{
+  margin: 0 80px;
+}
+@media (max-width: 750px){
+  .contanier{
+    margin: 0 40px;
+  }
+}

@@ -1,0 +1,16 @@
+.features-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -35px;
+    z-index: 12;
+    position: relative;
+}
+@media (max-width: 750px){
+    .features-flex{
+        flex-direction: column;
+    }
+    .mob-marg{
+        margin-top: 62px;
+    }
+}

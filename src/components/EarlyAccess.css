@@ -1,0 +1,57 @@
+.earlyAccess{
+    margin-top: 150px;
+    background-color: hsl(217, 28%, 15%);
+    width: 60%;
+    margin: 150px auto 0 auto;
+    text-align: center;
+    padding: 45px 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px hsl(0deg 0% 0% / 41%);
+    position: relative;
+    z-index: 3;
+}
+.earlyAccess h2{
+    font-size: 2rem;
+}
+.earlyAccess p{
+    padding: 25px 75px 40px 75px;
+    opacity: 0.8;
+}
+.earlyAccess input{
+    padding: 20px 40px;
+    border-radius: 40px;
+    width: calc(70% - 200px);
+    margin-right: 25px;
+}
+@media (max-width: 950px){
+    .earlyAccess input{
+        display: block;
+        margin: 0 auto;
+        width: 70%;
+    }
+    .earlyAccess button{
+        margin-top: 30px;
+        width: 84%;
+    }
+}
+@media (max-width: 750px){
+    .earlyAccess{
+        width: 90%;
+        margin: 280px auto 0 auto;
+        border-radius: 25px;
+        padding: 80px 0;
+    }
+    .earlyAccess h2 {
+        font-size: 2.2rem;
+    }
+    .earlyAccess p {
+        padding: 40px 75px;
+        font-size: 26px;
+    }
+    .earlyAccess input {
+        padding: 35px 40px;
+    }
+    .earlyAccess button {
+        height: 85px;
+    }
+}

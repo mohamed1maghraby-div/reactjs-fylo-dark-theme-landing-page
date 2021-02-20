@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 73px;
+}
+.links a{
+    padding: 0 29px;
+    opacity: .9;
+}
+.links a:last-child{
+    padding-right: 0;
+}
+@media (max-width: 750px){
+    nav{
+        padding-top: 50px;
+    }
+    .links a{
+        font-size: 23px;
+    }
+}
